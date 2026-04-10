@@ -1,4 +1,4 @@
-# ux-persona-check
+# bloom-ux-check
 
 A research-grounded UX evaluation skill for AI coding agents. Generates
 realistic user personas from product documents, then drives a live app through
@@ -53,22 +53,22 @@ screenshot) and adapts to whichever tools are available.
 
 ```bash
 # Option 1: Clone to your skills directory
-git clone https://github.com/YOUR_USERNAME/ux-persona-check.git ~/.claude/skills/ux-persona-check
+git clone https://github.com/bobaba99/bloom-ux-check.git ~/.claude/skills/bloom-ux-check
 
 # Option 2: Add as a project skill
-git clone https://github.com/YOUR_USERNAME/ux-persona-check.git .claude/skills/ux-persona-check
+git clone https://github.com/bobaba99/bloom-ux-check.git .claude/skills/bloom-ux-check
 ```
 
 The skill will be automatically discovered. Invoke with:
 ```
-Run ux-persona-check on this repo
+Run bloom-ux-check on this repo
 ```
 
 ### Cursor
 
 ```bash
 # Clone to your Cursor skills directory
-git clone https://github.com/YOUR_USERNAME/ux-persona-check.git ~/.cursor/skills/ux-persona-check
+git clone https://github.com/bobaba99/bloom-ux-check.git ~/.cursor/skills/bloom-ux-check
 ```
 
 Or add the SKILL.md content to your project's `.cursorrules` file.
@@ -77,7 +77,7 @@ Or add the SKILL.md content to your project's `.cursorrules` file.
 
 ```bash
 # Clone anywhere and point your agent config to the SKILL.md
-git clone https://github.com/YOUR_USERNAME/ux-persona-check.git ~/skills/ux-persona-check
+git clone https://github.com/bobaba99/bloom-ux-check.git ~/skills/bloom-ux-check
 ```
 
 Then reference the SKILL.md path in your agent's skill/instruction configuration.
@@ -85,7 +85,7 @@ Then reference the SKILL.md path in your agent's skill/instruction configuration
 ### Ollama / Local models
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ux-persona-check.git ~/skills/ux-persona-check
+git clone https://github.com/bobaba99/bloom-ux-check.git ~/skills/bloom-ux-check
 ```
 
 Include the SKILL.md content in your system prompt or instruction file.
@@ -104,7 +104,7 @@ automation.
 ## File structure
 
 ```
-ux-persona-check/
+bloom-ux-check/
   SKILL.md                              # Main skill (agent instructions)
   references/
     heuristic-checklist.md              # Nielsen's 10 detailed scoring guide
@@ -120,7 +120,7 @@ ux-persona-check/
 ## Example invocations
 
 ```
-Run ux-persona-check on this repo
+Run bloom-ux-check on this repo
 Create personas from PRD.md and verify the editor is usable for each
 My landing page is live on localhost:3000 — check it with realistic users
 Run a pre-launch UX audit against the staging deployment

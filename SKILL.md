@@ -1,5 +1,5 @@
 ---
-name: ux-persona-check
+name: bloom-ux-check
 description: Generate realistic user personas from a product document, then run UI/UX flow checks against a running app using browser automation (Playwright, Chrome DevTools MCP, or similar). Combines persona-driven flow testing with heuristic evaluation, accessibility audit, cognitive walkthrough, and edge-state resilience testing. Use when asked to "test the UX", "check how real users would use this", "run persona-based UI checks", or after significant UI changes.
 ---
 
@@ -303,7 +303,7 @@ Save this as `docs/ux-audit/<date>/regression.js` and re-run every audit.
 
 ## Example invocations
 
-- "Run ux-persona-check on this repo"
+- "Run bloom-ux-check on this repo"
 - "Create personas from PRD.md and verify the editor is usable for each"
 - "My landing page is live on localhost:3000 — check it with realistic users"
 - "Run a pre-launch UX audit against the staging deployment"

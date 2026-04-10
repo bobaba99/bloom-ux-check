@@ -155,12 +155,4 @@ medical informatics. Key findings:
 
 Full citations: [references/research-grounding.md](references/research-grounding.md)
 
-## Contributing
-
-PRs welcome. If you've used this skill and found bugs it missed, please
-open an issue describing the bug category — it may warrant a new entry in
-the [bug taxonomy](references/bug-taxonomy.md).
-
-## License
-
 MIT
